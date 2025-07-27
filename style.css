@@ -62,12 +62,15 @@ h1{
 }
 .action{
     margin: 116px 140px 116px 160px;
+    display: flex;
+    justify-content: space-between;
     
 
 }
 .left_side{
    margin-top: 62.5px;
    margin-bottom: 62.5px;
+   margin-right: 220px;
 }
 h1{
     font-weight: bold;
@@ -78,4 +81,12 @@ p{
     font-weight: normal;
     font-size: 24px;
     color:#252432;
+}
+.right_side{
+   
+   border-radius:48px;
+   display: flex;
+   overflow: hidden;
+   
+   
 }
