@@ -204,3 +204,55 @@ p{
    
 
 }
+.feedback{
+    margin: 92.3px 150px 150px 14px;
+
+}
+.mid{
+    padding: 0px 200px 115px 200px;
+    font-weight: bold;
+    font-size: 97px;
+}
+.email{
+  padding: 32px 20px;
+  margin:auto;
+  box-sizing: border-box;
+  border:2px none
+}
+.femail{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.butter{
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    padding: 19px 201px;
+    background-color: rgba(78, 71, 255, 1);
+    border-radius: 12px;
+    border: none;  
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.formo{
+    gap: 19px;
+}
+.feedback{
+    display: flex;
+    justify-content: space-between;
+}
+.form{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.form .input_box input{
+    width: 497px;
+    height: 70px;
+}
+.textm{
+    width: 497px;
+    height: 135px;
+}
