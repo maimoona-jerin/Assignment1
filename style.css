@@ -96,13 +96,14 @@ p{
    margin: 116px 159px 137px 141px;
    padding: 50px 142px;
    background-color:rgb(189, 219, 228);
-}
-.title{
+   border-radius: 24px;
+}.title{
     font-weight: bold;
     font-size: 38px;
     color:#252432;
     text-align: center;
 }
+
 .sub_title{
     display: flex;
     justify-content: space-between;
@@ -116,5 +117,54 @@ p{
     color: #000000;
     font-weight: 400;
     font-size: 20px;
+}
+/* For touch section */
+.Touch{
+  margin: 137px 149px 137px 151px;
+}
+.user{
+    font-weight: bold;
+    font-size: 42px;
+    color:#252432;
+    text-align: center;
+}
+.card{
+    margin-top: 50px;
+}
+/* Design sectiom */
+.txt_h{
+    color: #1E1E1E;
+    font-weight: 600;
+    font-size: 24px;
+}
+.txt_p{
+    font-weight: 400;
+    font-size: 16px;
+    color:#1E1E1E;
+}
+.tw_img{
+    display: flex;
+    gap:6.2px;
+}
+.rou_n{
+    border-radius:40px;
+}
+.s_p{
+   color: rgba(117, 117, 117, 1);
+   font-size:16px;
+   font-weight:600;
+
+
+}
+.s_card{
+    width: 350px;
+    border: 2px solid none;
+    border-radius:8px ;
+    padding: 24px;
+    background-color: aliceblue;
+}
+.card{
+    display: flex;
+    gap:20px;
 }
 
