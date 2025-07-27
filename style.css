@@ -156,6 +156,7 @@ p{
 
 
 }
+
 .s_card{
     width: 350px;
     border: 2px solid none;
@@ -165,6 +166,41 @@ p{
 }
 .card{
     display: flex;
-    gap:20px;
+    gap:24px;
+}
+.design_p{
+    margin:137px 149px 151px 92.3px ;
+    background-color: white;
+}
+.sub_design{
+    text-align: center;
+}
+.R_two{
+    padding-top: 71px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.butd{
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    padding: 16px 32px;
+    background-color: rgba(78, 71, 255, 1);
+    border-radius: 12px;
+    border: none;  
+    text-decoration: none;
+    margin-bottom: 20px;
+      
 }
 
+.right_sidew{
+    
+    display: flex;
+    justify-content: center;
+    border-radius: 48px;
+    overflow: hidden; 
+   
+
+}
