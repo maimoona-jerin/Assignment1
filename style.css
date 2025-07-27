@@ -1,4 +1,4 @@
-
+/* font style formatting */
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -10,7 +10,8 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-.head{
+/* heading side */
+.heading{
     background-attachment: fixed;
     background-image: url('Assets/Hero-bg.png');
     background-repeat: no-repeat;
@@ -67,6 +68,7 @@ h1{
     
 
 }
+/* left side */
 .left_side{
    margin-top: 62.5px;
    margin-bottom: 62.5px;
@@ -87,6 +89,32 @@ p{
    border-radius:48px;
    display: flex;
    overflow: hidden;
-   
-   
+     
 }
+/* For Productive Section */
+.Productive{
+   margin: 116px 159px 137px 141px;
+   padding: 50px 142px;
+   background-color:rgb(189, 219, 228);
+}
+.title{
+    font-weight: bold;
+    font-size: 38px;
+    color:#252432;
+    text-align: center;
+}
+.sub_title{
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+    font-weight: bold;
+    font-size: 80px;
+    color:  #4E47FF;
+}
+.para{
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+}
+
